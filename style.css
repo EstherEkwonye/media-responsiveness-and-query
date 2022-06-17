@@ -9,7 +9,7 @@
 }
 
 main {
-    background: url(images/bg-intro-desktop.png) repeat center center fixed;
+    background: url(media-responsiveness-and-query/IMAGES/bg-intro-desktop.png) repeat center center fixed;
     background-color: hsl(0, 100%, 74%);
     padding: 100px;
     min-height: 100vh;
@@ -31,8 +31,8 @@ section {
     padding-right: 3em;
     width: 50%;
     float: left;
-    display: table;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content:flex-end;
 }
 
 
